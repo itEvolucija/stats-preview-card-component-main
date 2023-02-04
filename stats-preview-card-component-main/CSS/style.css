@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+/* COLORS */
+
+:root {
+  --primary: hsl(233, 47%, 7%);
+  --dark-blue: hsl(244, 38%, 16%);
+  --soft-violet: hsl(277, 64%, 61%);
+  --white: hsl(0, 0%, 100%);
+  --slightly-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --slightly-transparent-white-heading: hsla(0, 0%, 100%, 0.6);
+}
+
+/* GLOBAL */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  font-family: "Inter", "Lexend Deca", sans-serif;
+  height: 100vh;
+  justify-content: center;
+  width: 1440px;
+}
+
+/* MAIN-PAGE */
+
+main {
+  align-items: center;
+  background-color: var(--dark-blue);
+  border-radius: 10px 0 0 10px;
+  display: flex;
+  flex-direction: column;
+  height: 446px;
+  justify-content: center;
+  padding: 4rem;
+  width: 540px;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+span {
+  color: var(--soft-violet);
+}
+p {
+  color: var(--slightly-transparent-white);
+  margin-bottom: 2rem;
+}
+.info-numbers {
+  display: flex;
+  justify-content: flex-start;
+  width: 412px;
+}
+.info-numbers > div {
+  margin-right: 3rem;
+}
+h2,
+h4 {
+  text-transform: uppercase;
+}
+h4 {
+  color: var(--slightly-transparent-white-heading);
+  font-weight: 400;
+}
+img {
+  background-color: var(--soft-violet);
+  border-radius: 0 10px 10px 0;
+  opacity: 0.7;
+}
